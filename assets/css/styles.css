@@ -1,0 +1,32 @@
+
+main{
+    text-align: center;
+}
+/*desafio1*/
+
+#imagen_desafio1{
+    width: 30%;
+}
+
+/*desafio2*/
+
+.stikers{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.card img{
+    width: 100%;
+}
+
+/*desafio3*/
+
+.selects{
+    margin: 30px;
+}

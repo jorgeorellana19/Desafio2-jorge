@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Desafio2</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Desafio 1</h2>
+            <img onclick="borderImage()" id="imagen_desafio1" class="borderojo" src="./assets/imgs/hunterX.webp" alt="">
+        </div>
+        <div class="desafio2">
+            <h2>Desafio 2</h2>
+            <div class="stikers">
+                <div class="card">
+                    <img src="./assets/imgs/stikers/OnePice.png" alt="">
+                    <input id="stiker1" type="text" name="" id="">
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/stikers/Rick.jpg" alt="">
+                    <input id="stiker2" type="text" name="" id="">
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/stikers/Zenitsu.jpg" alt="">
+                    <input id="stiker3" type="text" name="" id="">
+                </div>
+            </div>
+            <p id="validacion"></p>
+            <button onclick="validarCompra()">Validar</button>
+        </div>
+        <div>
+            <h2>Desafio 3</h2>
+            <div class="selects">
+                <select name="" id="num1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="" id="num2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="" id="num3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <p id="resp_psw"></p>
+            <button onclick="ingresar()">ingresar</button>
+        </div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
